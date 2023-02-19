@@ -38,8 +38,33 @@
     &__img{
         position: absolute;
         z-index: 1;
-        width: 100%;
+        width: 95%;
 
     }
+
+}
+
+@media only screen and (max-width: v.$firstBreak ) {
+    /* For desktop: */
+    .card {
+        width: 150px;
+        height: 200px;
+        margin-top: 80px;
+        right: auto;
+        
+    }
+    .card__circle{
+        background-color: v.$color4;
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        position: absolute;
+        top: 48px;
+        left: 20px;
+
+    }
+    .card__name{                 
+        width: 100px;            
+  }
 
 }

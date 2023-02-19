@@ -20,7 +20,7 @@
 .card__container{
     
     display: flex;
-    width: 500px;
+    width: 31.25rem;
     height: 300px;
     margin-top: 80px;
     position: relative;
@@ -82,13 +82,47 @@
 @media only screen and (max-width: v.$firstBreak ) {
     /* For desktop: */
     .card__container {
-        width: 500px;
-        margin-top: 80px;
-        right: auto;
-        
-        
-      
-
+        width:450px;
+        margin-top: 20px;
+       
     }
+
+    .app{
+     
+     
+      
+        
+    }
+    .card__container .card:nth-child(1){
+    
+        position: absolute;
+        left: 50px;
+        transition: 500ms;
+        transform: rotate(-5deg) translateY(10px);
+       
+    }
+    .card__container .card:nth-child(2){
+        
+        position: absolute;
+        left: 150px;
+          
+    }
+    .card__container .card:nth-child(3){
+        
+        position: absolute;
+        left: 250px;
+        transform: rotate(5deg) translateY(10px);
+       
+    }
+    .buttons-container{
+   
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+  
+   
+
+}
+    
    
   }
